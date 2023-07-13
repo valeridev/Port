@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Website</title>
+    <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+    }
+    header {
+      background-color: #000;
+      color: #fff;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 2em;
+      margin-top: 0;
+    }
+    nav {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    nav a {
+      display: block;
+      padding: 10px;
+      text-decoration: none;
+      color: #fff;
+    }
+    nav a:hover {
+      background-color: #ccc;
+    }
+    main {
+      margin-top: 20px;
+    }
+    section {
+      margin-bottom: 20px;
+    }
+    h2 {
+      font-size: 1.5em;
+      margin-top: 0;
+    }
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    a {
+      text-decoration: none;
+      color: #000;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+  
+</head>
+<body>
+  <header>
+    <h1>My Website</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Projects</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Home</h2>
+      <p>This is the home page of my website.</p>
+    </section>
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <a href="https://github.com/user/project1">Project 1</a>
+          <img src="project1.png" alt="Project 1 preview">
+        </li>
+        <li>
+          <a href="https://github.com/user/project2">Project 2</a>
+          <img src="project2.png" alt="Project 2 preview">
+        </li>
+        <li>
+          <a href="https://github.com/user/project3">Project 3</a>
+          <img src="project3.png" alt="Project 3 preview">
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Contact</h2>
+      <p>You can contact me via email at <a href="mailto:me@example.com">me@example.com</a> or via my social media profiles:</p>
+      <ul>
+        <li><a href="https://github.com/me"><img src="github.png" alt="GitHub"></a></li>
+        <li><a href="https://linkedin.com/in/me"><img src="linkedin.png" alt="LinkedIn"></a></li>
+      </ul>
+    </section>
+  </main>
+<script>
+  function validateForm() {
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var message = document.getElementById("message").value;
+    if (name == "") {
+      alert("Please enter your name.");
+      return false;
+    }
+    if (email == "") {
+      alert("Please enter your email address.");
+      return false;
+    }
+    if (message == "") {
+      alert("Please enter your message.
+</body>
+</html>
